@@ -18,14 +18,13 @@ cd projeAdi
 ### GROQ_API_KEY = https://groq.com/
 
 Seçenek 1: Google Drive’dan Manuel Kopyalama
-vectorstore/ klasörünün içine aşağıdaki dosyaları yerleştirin:
+vectorstore/db_faiss klasörünün içine aşağıdaki dosyaları yerleştirin:
 
 index.faiss
 
 index.pkl
 
 Gerekirse data/ klasörüne PDFleri koyun
-
 Seçenek 2: Kendi Verinle Vektör Oluşturma
 data/ klasörüne PDF koyulur
 
@@ -34,9 +33,11 @@ pipenv run python vector_builder.py
 
 # Uygulamanın başlatılması
 pipenv shell
+backend içinde
 uvicorn main:app --reload
 
 # Ön yüzünün başlatılması
+frontend içinde
 streamlit run app.py
 
 
