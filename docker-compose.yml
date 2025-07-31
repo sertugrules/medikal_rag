@@ -1,0 +1,16 @@
+services:
+  medikal_rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9999:9999"   # FastAPI
+      - "8501:8501"   # Streamlit
+    volumes:
+      - ./backend/logs:/app/backend/logs
+      - ./backend/vectorstore:/app/backend/vectorstore
+      - ./data:/app/data
+      - ./vectorstore:/app/vectorstore
+    env_file:
+      - .env
+    restart: unless-stopped

@@ -1,0 +1,28 @@
+Query,Query_Length,Retrieval_Time_MS,Generation_Time_MS,Total_Time_MS,Answer,Reference,Relevance,Accuracy,Fluency,Sources_Flag
+how to cure cancer?,Kisa,11764,1766,13530,"According to the context, curing cancer, specifically esophageal cancer, is possible if it's caught in the early stages. The key to a potential cure is:
+
+1. **Early detection**: The cancer must be diagnosed at an early stage.
+2. **Major surgery**: The patient must be able to tolerate major surgery.
+
+If the cancer is advanced or the patient is unable to undergo major surgery, the focus of treatment shifts from cure to **palliation**, which aims to relieve symptoms and improve the patient's quality of life.
+
+It's essential to note that each individual's situation is unique, and the best course of treatment should be determined by a qualified healthcare professional. If you or someone you know has been diagnosed with cancer, it's crucial to consult with a doctor to discuss the most effective treatment options.",..\data\The_GALE_ENCYCLOPEDIA_of_MEDICINE_SECOND.pdf - page 626,3,3,3,Evet
+what is diabet?,Kisa,3654,3200,6854,"Diabetes, also known as diabetes mellitus, is a medical condition where the body is unable to properly regulate blood sugar levels. It occurs when the body either doesn't produce enough insulin (a hormone that helps regulate blood sugar) or is unable to effectively use the insulin it produces.
+
+There are two main types of diabetes:
+
+1. **Type 1 Diabetes**: This type is an autoimmune disease where the body's immune system attacks and destroys the cells in the pancreas that produce insulin, resulting in a lack of insulin production.
+2. **Type 2 Diabetes**: This type is often associated with insulin resistance, where the body's cells become less responsive to insulin, and the pancreas is unable to produce enough insulin to keep up with the body's needs.
+
+Common symptoms of diabetes include:
+
+* Increased thirst and hunger
+* Frequent urination
+* Fatigue
+* Blurred vision
+* Slow healing of cuts and wounds
+* Tingling or numbness in the hands and feet
+
+If left untreated or poorly managed, diabetes can lead to serious complications, such as heart disease, kidney damage, and nerve damage.
+
+In the context of the text you provided, it seems that the discussion is focused on the diagnosis and differentiation between type 1 and type 2 diabetes, using criteria such as blood glucose levels, weight loss, and response to diet and medications.",..\data\Oxford Handbook of Clinical Medicine 10th 2017 Edition.pdf - page 220,3,3,3,Evet
