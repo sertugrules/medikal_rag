@@ -1,7 +1,7 @@
 # Proje Kurulum ve Çalıştırma Rehberi
 
 ## 1. Reponun Klonlanması
-```bash
+
 git clone https://github.com/kullaniciAdi/projeAdi.git
 cd projeAdi
 
@@ -11,7 +11,7 @@ cd projeAdi
 ### pipenv install gerekli importları eder
 ### pipenv shell
 
-### .env dosyası oluşturulur api keyler yapıştırılır
+## .env dosyası oluşturulur api keyler yapıştırılır
 HF_TOKEN=
 LANGCHAIN_TOKEN = 
 GROQ_API_KEY 
