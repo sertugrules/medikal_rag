@@ -16,7 +16,7 @@ from fastapi.responses import FileResponse
 import pathlib 
 
 load_dotenv(dotenv_path="../.env")
-DB_FAISS_PATH = pathlib.Path("vectorstore/dbfaiss")
+DB_FAISS_PATH = pathlib.Path("vectorstore/db_faiss")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 EMBEDDING_MODEL = "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb"
 ALLOWED_MODELS = ["llama-3.3-70b-versatile", "deepseek-r1-distill-llama-70b"]
