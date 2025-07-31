@@ -2,7 +2,7 @@
 
 ## 1. Reponun Klonlanması
 
-git clone https://github.com/kullaniciAdi/projeAdi.git
+git clone https://github.com/sertugrules/medikal_rag/.git
 cd projeAdi
 
 
