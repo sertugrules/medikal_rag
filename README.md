@@ -3,8 +3,6 @@
 ## 1. Reponun Klonlanması
 
 git clone https://github.com/sertugrules/medikal_rag/.git
-cd projeAdi
-
 
 ## VSCODE üzerinde
 ### pip install pipenv
