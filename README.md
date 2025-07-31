@@ -11,10 +11,11 @@ cd projeAdi
 ### pipenv install gerekli importları eder
 ### pipenv shell
 
-## .env dosyası oluşturulur api keyler yapıştırılır
-HF_TOKEN=
-LANGCHAIN_TOKEN = 
-GROQ_API_KEY 
+## .env dosyası oluşturulur api keyler yapıştırılır. 
+### Mailde ileteceğim ama token error gelirse üyelik açıp yapıştırmanız gerekebilir 
+### HF_TOKEN = https://huggingface.co/models
+### LANGCHAIN_TOKEN = https://www.langchain.com/
+### GROQ_API_KEY = https://groq.com/
 
 Seçenek 1: Google Drive’dan Manuel Kopyalama
 vectorstore/ klasörünün içine aşağıdaki dosyaları yerleştirin:
@@ -39,7 +40,7 @@ uvicorn main:app --reload
 streamlit run app.py
 
 
-##Docker çalıştırılması
-.env klasörünün boş olmamasına dikkat edin
-docker-compose build
-docker-compose up
+# Docker çalıştırılması
+## .env klasörünün boş olmamasına dikkat edin
+## docker-compose build
+## docker-compose up
