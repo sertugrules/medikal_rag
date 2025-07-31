@@ -1,16 +1,20 @@
-### 1. Reponun Klonlanması
-# .env Dosyasının Oluşturulması
-Proje dizinine .env adında bir dosya oluşturun ve aşağıdaki içeriği yapıştırın:
-ilgili mailde ilettiğim
-HF_TOKEN=
-LANGCHAIN_TOKEN=
-GROQ_API_KEY=
+# Proje Kurulum ve Çalıştırma Rehberi
+
+## 1. Reponun Klonlanması
+```bash
+git clone https://github.com/kullaniciAdi/projeAdi.git
+cd projeAdi
 
 
 ## VSCODE üzerinde
 ### pip install pipenv
 ### pipenv install gerekli importları eder
 ### pipenv shell
+
+### .env dosyası oluşturulur api keyler yapıştırılır
+HF_TOKEN=
+LANGCHAIN_TOKEN = 
+GROQ_API_KEY 
 
 Seçenek 1: Google Drive’dan Manuel Kopyalama
 vectorstore/ klasörünün içine aşağıdaki dosyaları yerleştirin:
@@ -19,10 +23,10 @@ index.faiss
 
 index.pkl
 
-Gerekirse data/ klasörüne PDF veya metin dosyalarını da ekleyebilirsiniz.
+Gerekirse data/ klasörüne PDFleri koyun
 
 Seçenek 2: Kendi Verinle Vektör Oluşturma
-data/ klasörüne PDF veya .txt belgelerini koyun.
+data/ klasörüne PDF koyulur
 
 Aşağıdaki komutu çalıştırarak vektörleri oluşturun:
 pipenv run python vector_builder.py
@@ -33,3 +37,9 @@ uvicorn main:app --reload
 
 # Ön yüzünün başlatılması
 streamlit run app.py
+
+
+##Docker çalıştırılması
+.env klasörünün boş olmamasına dikkat edin
+docker-compose build
+docker-compose up
